@@ -515,7 +515,7 @@ data-open="click" data-menu="vertical-menu" data-col="2-columns">
                                     <label class="col-md-5" for="userinput1">Insiden Ditemukan</label>
                                     <div class="col-md-7">
                                         <div class="input-group">
-                                            <input type="text" class="form-control daterange">
+                                            <input type="text" class="form-control autoapply">
                                             <div class="input-group-append">
                                               <span class="input-group-text">
                                                 <span class="fa fa-calendar"></span>
@@ -567,6 +567,66 @@ data-open="click" data-menu="vertical-menu" data-col="2-columns">
                       </div>
                     </div>
                   </div>
+                  <div class="row">
+                      <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Basic Scenario</h4>
+                                <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
+                                <div class="heading-elements">
+                                  <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                                    <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                                    <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                          <div class="card-content collapse show">
+                            <div class="card-body card-dashboard">
+                              <table class="table table-striped table-bordered dataex-res-constructor">
+                                  <thead>
+                                      <tr>
+                                          <th>Catat Insiden</th>
+                                          <th>Ubah</th>
+                                          <th>Lihat</th>
+                                          <th>No. Insiden</th>
+                                          <th>Organisasi</th>
+                                          <th>Insiden Terjadi</th>
+                                          <th>Insiden Dicatat</th>
+                                          <th>Deskripsi</th>
+                                          <th>Finansial</th>
+                                          <th>AP</th>
+                                          <th>Status</th>
+                                          <th>Level Saat Ini</th>
+                                          <th>Pilih</th>
+                                          <th>Catat</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="icheckbox_flat-green checked" style="position: relative;">
+                                                  <input type="checkbox" id="input-16" checked="" style="position: absolute; opacity: 0;">
+                                                  <ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;">
+                                                  </ins>
+                                                </div>
+                                            </td>
+                                            <td>Coorporate Finance</td>
+                                            <td></td>
+                                        <td>   
+                                          <button type="button" class="btn btn-icon btn-pure danger mr-1" data-toggle="modal"
+                                          data-backdrop="false" data-target="#deletemodal1"><i class="fa fa-trash"></i></button> 
+                                          <button type="button" class="btn btn-icon btn-pure warning mr-1" data-toggle="modal"
+                                          data-backdrop="false" data-target="#editmodal1"><i class="fa fa-pencil"></i></button>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
           </div>
   </div>
