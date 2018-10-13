@@ -81,14 +81,14 @@ $(document).ready(function() {
      *       With FixedHeader       *
      *******************************/
 
-    var tableFixedHeader = $('.dataex-res-fixedheader').DataTable({
-        responsive: true
-    });
+    // var tableFixedHeader = $('.dataex-res-fixedheader').DataTable({
+    //     responsive: true
+    // });
 
-    new $.fn.dataTable.FixedHeader(tableFixedHeader, {
-        header: true,
-        headerOffset: $('.header-navbar').outerHeight()
-    });
+    // new $.fn.dataTable.FixedHeader(tableFixedHeader, {
+    //     header: true,
+    //     headerOffset: $('.header-navbar').outerHeight()
+    // });
 
     /******************************
      *       With ColReorder       *
@@ -122,6 +122,7 @@ $(document).ready(function() {
      *************************************/
 
     $('.dataex-res-controlright').DataTable({
+        destroy:true,
         responsive: {
             details: {
                 type: 'column',
