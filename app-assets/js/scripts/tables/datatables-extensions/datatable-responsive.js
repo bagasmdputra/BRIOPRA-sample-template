@@ -22,9 +22,9 @@ $(document).ready(function() {
      *       `new` constructor       *
      ********************************/
 
-    var tableConstructor = $('.dataex-res-constructor').DataTable();
+    // var tableConstructor = $('.dataex-res-constructor').DataTable();
 
-    new $.fn.dataTable.Responsive(tableConstructor);
+    // new $.fn.dataTable.Responsive(tableConstructor);
 
     /**********************************************
      *       Immediately show hidden details       *
@@ -121,20 +121,18 @@ $(document).ready(function() {
      *       Column control - right       *
      *************************************/
 
-    $('.dataex-res-controlright').DataTable({
+    var tableConstructorRight = $('.dataex-res-controlright').DataTable({columnDefs: [{
         destroy:true,
-        responsive: {
-            details: {
-                type: 'column',
-                target: -1
-            }
-        },
-        columnDefs: [{
-            className: 'control',
-            orderable: false,
-            targets: -1
-        }]
-    });
+        className: 'control',
+        orderable: false,
+        targets: -1
+    }]});
+
+    tableConstructorRight = new $.fn.dataTable.Responsive(tableConstructorRight, {details : {
+        type: 'column',
+        target: -1
+    }});
+
 
     /******************************************
      *       Whole row child row control       *
