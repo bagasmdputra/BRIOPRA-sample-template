@@ -10,22 +10,6 @@
 
 $(document).ready(function() {
 
-    /***********************************
-     *       Configuration option       *
-     ***********************************/
-
-    $('.dataex-res-configuration').DataTable({
-        responsive: true
-    });
-
-    /********************************
-     *       `new` constructor       *
-     ********************************/
-
-    var tableConstructor = $('.dataex-res-constructor').DataTable();
-
-    new $.fn.dataTable.Responsive(tableConstructor);
-
     /**********************************************
      *       Immediately show hidden details       *
      **********************************************/
@@ -75,19 +59,6 @@ $(document).ready(function() {
         buttons: [
             'colvis'
         ]
-    });
-
-    /*******************************
-     *       With FixedHeader       *
-     *******************************/
-
-    var tableFixedHeader = $('.dataex-res-fixedheader').DataTable({
-        responsive: true
-    });
-
-    new $.fn.dataTable.FixedHeader(tableFixedHeader, {
-        header: true,
-        headerOffset: $('.header-navbar').outerHeight()
     });
 
     /******************************
