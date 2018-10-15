@@ -550,213 +550,210 @@
                                     <form action="#" class="steps-validation wizard-circle">
                                         <!--Step 1-->
                                         <h6>Step 1</h6>
-                                        <div id="accordionWrap2" role="tablist" aria-multiselectable="true">
-                                            <div class="card collapse-icon accordion-icon-rotate left">
-                                                <div id="heading21" class="card-header">
-                                                    <a data-toggle="collapse" data-parent="#accordionWrap2" href="#accordion21" aria-expanded="true"
-                                                       aria-controls="accordion21" class="card-title lead">Input Penyalahgunaan Cek / BG (Opsional)</a>
-                                                </div>
-                                                <div id="accordion21" role="tabpanel" aria-labelledby="heading21" class="collapse">
-                                                    <div class="card-content">
-                                                        <div class="card-body">
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Mekanisme Pencarian Dana :
-                                                                        </label>
-                                                                        <select class="select2 form-control select2-hidden-accessible" tabindex="-1" aria-hidden="true">
-                                                                            <optgroup label="Alaskan/Hawaiian Time Zone">
-                                                                                <option value="AK">Alaska</option>
-                                                                                <option value="HI">Hawaii</option>
-                                                                            </optgroup>
-                                                                        </select>
+                                        <!--<hr />-->
+                                        <fieldset>
+                                            <div class="row">
+                                                <div id="accordionWrap2" role="tablist" aria-multiselectable="true">
+                                                    <div class="card collapse-icon accordion-icon-rotate left">
+                                                        <div id="heading21" class="card-header">
+                                                            <a data-toggle="collapse" data-parent="#accordionWrap2" href="#accordion21" aria-expanded="true"
+                                                               aria-controls="accordion21" class="card-title lead">Input Penyalahgunaan Cek / BG (Opsional)</a>
+                                                        </div>
+                                                        <div id="accordion21" role="tabpanel" aria-labelledby="heading21" class="collapse">
+                                                            <div class="card-content">
+                                                                <div class="card-body">
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Mekanisme Pencarian Dana :
+                                                                                </label>
+                                                                                <select class="select2 form-control select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+                                                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                                                        <option value="AK">Alaska</option>
+                                                                                        <option value="HI">Hawaii</option>
+                                                                                    </optgroup>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Jenis Warkat :
+                                                                                </label>
+                                                                                <select class="select2 form-control select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+                                                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                                                        <option value="AK">Alaska</option>
+                                                                                        <option value="HI">Hawaii</option>
+                                                                                    </optgroup>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Jenis Warkat :
-                                                                        </label>
-                                                                        <select class="select2 form-control select2-hidden-accessible" tabindex="-1" aria-hidden="true">
-                                                                            <optgroup label="Alaskan/Hawaiian Time Zone">
-                                                                                <option value="AK">Alaska</option>
-                                                                                <option value="HI">Hawaii</option>
-                                                                            </optgroup>
-                                                                        </select>
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Nominal (IDR) :
+                                                                                </label>
+                                                                                <input type="text" class="form-control required" id="nominal" name="nominal" >
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Nominal (IDR) :
-                                                                        </label>
-                                                                        <input type="text" class="form-control required" id="nominal" name="nominal" >
+                                                                    <br />
+                                                                    <label>Informasi Penarik</label>
+                                                                    <br />
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Nomor Rekening Penarik :
+                                                                                </label>
+                                                                                <input type="text" class="form-control required" id="nomorRekeningPenarik" name="nomorRekeningPenarik" >
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Nama Penarik :
+                                                                                </label>
+                                                                                <input type="text" class="form-control required" id="namaPenarik" name="namaPenarik" >
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                            <br />
-                                                            <label>Informasi Penarik</label>
-                                                            <br />
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Nomor Rekening Penarik :
-                                                                        </label>
-                                                                        <input type="text" class="form-control required" id="nomorRekeningPenarik" name="nomorRekeningPenarik" >
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Status Nomor Rekening :
+                                                                                </label>
+                                                                                <select class="select2 form-control select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+                                                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                                                        <option value="AK">Alaska</option>
+                                                                                        <option value="HI">Hawaii</option>
+                                                                                    </optgroup>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Nama Penarik :
-                                                                        </label>
-                                                                        <input type="text" class="form-control required" id="namaPenarik" name="namaPenarik" >
+                                                                    <br />
+                                                                    <label>Informasi Pemegang</label>
+                                                                    <br />
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Nomor Rekening Pemegang :
+                                                                                </label>
+                                                                                <input type="text" class="form-control required" id="nomorRekeningPemegang" name="nomorRekeningPemegang" >
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Nama Pemegang :
+                                                                                </label>
+                                                                                <input type="text" class="form-control required" id="namaPemegang" name="namaPemegang" >
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Status Nomor Rekening :
-                                                                        </label>
-                                                                        <select class="select2 form-control select2-hidden-accessible" tabindex="-1" aria-hidden="true">
-                                                                            <optgroup label="Alaskan/Hawaiian Time Zone">
-                                                                                <option value="AK">Alaska</option>
-                                                                                <option value="HI">Hawaii</option>
-                                                                            </optgroup>
-                                                                        </select>
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Bank Penagih :
+                                                                                </label>
+                                                                                <input type="text" class="form-control required" id="bankPenagih" name="bankPenagih" >
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                            <br />
-                                                            <label>Informasi Pemegang</label>
-                                                            <br />
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Nomor Rekening Pemegang :
-                                                                        </label>
-                                                                        <input type="text" class="form-control required" id="nomorRekeningPemegang" name="nomorRekeningPemegang" >
+                                                                    <br />
+                                                                    <label>Analisis Penyalahgunaan</label>
+                                                                    <br />
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Modus Operandi :
+                                                                                </label>
+                                                                                <input type="text" class="form-control required" id="modusOperandi" name="modusOperandi" >
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Judul field / poin yang dipasulkan :
+                                                                                </label>
+                                                                                <input type="text" class="form-control required" id="judulField" name="judulField" >
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Nama Pemegang :
-                                                                        </label>
-                                                                        <input type="text" class="form-control required" id="namaPemegang" name="namaPemegang" >
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Nama Pembawa Cek / BG :
+                                                                                </label>
+                                                                                <input type="text" class="form-control required" id="namaPembawaCek" name="namaPembawaCek" >
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Idenitas Pembawa Cek / BG :
+                                                                                </label>
+                                                                                <input type="text" class="form-control required" id="identitasCek" name="identitasCek" >
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Bank Penagih :
-                                                                        </label>
-                                                                        <input type="text" class="form-control required" id="bankPenagih" name="bankPenagih" >
+                                                                    <br />
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Status Pelaporan Pihak Yang Berwenang :
+                                                                                </label>
+                                                                                <select class="select2 form-control select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+                                                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                                                        <option value="AK">Alaska</option>
+                                                                                        <option value="HI">Hawaii</option>
+                                                                                    </optgroup>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Status Pelaku :
+                                                                                </label>
+                                                                                <select class="select2 form-control select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+                                                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                                                        <option value="AK">Alaska</option>
+                                                                                        <option value="HI">Hawaii</option>
+                                                                                    </optgroup>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                            <br />
-                                                            <label>Analisis Penyalahgunaan</label>
-                                                            <br />
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Modus Operandi :
-                                                                        </label>
-                                                                        <input type="text" class="form-control required" id="modusOperandi" name="modusOperandi" >
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Judul field / poin yang dipasulkan :
-                                                                        </label>
-                                                                        <input type="text" class="form-control required" id="judulField" name="judulField" >
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Nama Pembawa Cek / BG :
-                                                                        </label>
-                                                                        <input type="text" class="form-control required" id="namaPembawaCek" name="namaPembawaCek" >
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Idenitas Pembawa Cek / BG :
-                                                                        </label>
-                                                                        <input type="text" class="form-control required" id="identitasCek" name="identitasCek" >
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <br />
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Status Pelaporan Pihak Yang Berwenang :
-                                                                        </label>
-                                                                        <select class="select2 form-control select2-hidden-accessible" tabindex="-1" aria-hidden="true">
-                                                                            <optgroup label="Alaskan/Hawaiian Time Zone">
-                                                                                <option value="AK">Alaska</option>
-                                                                                <option value="HI">Hawaii</option>
-                                                                            </optgroup>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Status Pelaku :
-                                                                        </label>
-                                                                        <select class="select2 form-control select2-hidden-accessible" tabindex="-1" aria-hidden="true">
-                                                                            <optgroup label="Alaskan/Hawaiian Time Zone">
-                                                                                <option value="AK">Alaska</option>
-                                                                                <option value="HI">Hawaii</option>
-                                                                            </optgroup>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label>
-                                                                            Status :
-                                                                        </label>
-                                                                        <select class="select2 form-control select2-hidden-accessible" tabindex="-1" aria-hidden="true">
-                                                                            <optgroup label="Alaskan/Hawaiian Time Zone">
-                                                                                <option value="AK">Alaska</option>
-                                                                                <option value="HI">Hawaii</option>
-                                                                            </optgroup>
-                                                                        </select>
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group">
+                                                                                <label>
+                                                                                    Status :
+                                                                                </label>
+                                                                                <select class="select2 form-control select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+                                                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                                                        <option value="AK">Alaska</option>
+                                                                                        <option value="HI">Hawaii</option>
+                                                                                    </optgroup>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <hr />
-                                        <fieldset>
-                                            <div class="row margin-bottom-default">
-                                                <div class="card-header">
-                                                    <div aria-expanded="true" class="card-title lead">Input Penyalahgunaan Cek / BG (Opsional)</div>
                                                 </div>
                                             </div>
                                             <div class="row">
