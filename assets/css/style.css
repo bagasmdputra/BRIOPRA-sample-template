@@ -17,3 +17,12 @@ html {
 
 .brand-text {
   color: #233D90; }
+
+.padding-default{
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.margin-bottom-default{
+  margin-bottom: 20px;
+}

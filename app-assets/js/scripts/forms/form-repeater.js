@@ -12,7 +12,17 @@
 	'use strict';
 
 	// Default
-	$('.repeater-default').repeater();
+	$('.repeater-default').repeater({
+        show: function () {
+        	console.log('a')
+            $(this).slideDown();
+        },
+        hide: function(remove) {
+            if (confirm('Apakah Anda yakin menghapus data ini')) {
+                $(this).slideUp(remove);
+            }
+        }
+    });
 
 	// Custom Show / Hide Configurations
 	$('.file-repeater, .contact-repeater').repeater({
